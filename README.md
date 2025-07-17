@@ -14,13 +14,14 @@
 
 ## 🛠️ Descripción
 
-Este proyecto implementa diferentes métodos para calcular números de la serie de Fibonacci en Java, comparando eficiencia y rendimiento:
+Este proyecto implementa varios métodos para calcular números de la serie de Fibonacci en Java, con enfoque en eficiencia y rendimiento. Se incluyen:
 
 - Método recursivo simple (sin optimización).  
 - Método con memoización (programación dinámica top-down).  
-- Método iterativo (programación dinámica bottom-up).
+- Método iterativo (programación dinámica bottom-up).  
+- Comparación de tiempos de ejecución para cada método, mostrando la ventaja de usar programación dinámica.
 
-El proyecto también permite comparar los tiempos de ejecución para cada método, mostrando la ventaja de usar programación dinámica.
+Además, el proyecto incluye pruebas para evaluar y comparar el desempeño de cada enfoque.
 
 ---
 
@@ -43,5 +44,11 @@ Para compilar y ejecutar el proyecto sigue estos pasos:
 ---
 ## RESULTADOS OBTENIDOS CON 50
 ![Resultado de Ejecución](resultados50.png)
+
+## RESULTADOS 4 CAMINOS
+![Resultado de Ejecución](caminos.png)
+
+Los resultados demuestran claramente cómo los métodos con programación dinámica (memoización e iterativo) mejoran significativamente el tiempo de cálculo frente al método recursivo simple.
+
 
 
