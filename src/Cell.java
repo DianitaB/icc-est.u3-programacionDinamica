@@ -21,6 +21,11 @@ public class Cell {
     public void setCol(int col) {
         this.col = col;
     }
+
+    @Override
+    public String toString() {
+        return "Cell [" + row + ", " + col + "]";
+    }
     
     
 }
